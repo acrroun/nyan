@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboco", "sans-serif" ;
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    max-width: 1350;
+    margin: 0 auto;
+    padding: 0 15 px;
+}
+
+.header-top {
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.header-top_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+ul li:hover {
+    color: darkgray;
+}
+
+.number {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 12px 37px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: yellow;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    position: relative;
+    top: -1px;
+    opacity: 0.9;
+}
